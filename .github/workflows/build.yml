@@ -40,6 +40,7 @@ jobs:
       run: python build.py
     
     - name: Create release package
+      shell: bash  # 使用 bash 执行这个步骤
       run: |
         mkdir -p release
         if [ "${{ matrix.os }}" = "windows-latest" ]; then
