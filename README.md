@@ -2,6 +2,8 @@
 
 A command-line tool designed to help 408 exam candidates master binary and hexadecimal conversions efficiently.
 
+![Binary-Hex Conversion Trainer](gihub.com/ywh555hhh/binary-hex-trainer/raw/main/figure/figure.png)
+
 ## Preface
 
 When studying Computer Organization and Principles, I realized that converting between hexadecimal, decimal, and binary numbers in your head through multiple steps is inefficient. It's much better to develop direct mapping in your mind through practice. While practicing with pen and paper can be tedious, I created this Python command-line tool to make the process more efficient. Most of the code was written with the help of Claude 3.7 through Cursor. Good luck with your exam preparation! 🎉

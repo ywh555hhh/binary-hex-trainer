@@ -2,6 +2,8 @@
 
 一个帮助 408 考生高效掌握二进制和十六进制转换的命令行工具。
 
+![Binary-Hex Conversion Trainer](gihub.com/ywh555hhh/binary-hex-trainer/raw/main/figure/figure.png)
+
 ## 前言
 
 在学习计算机组成原理时，我意识到在脑子里先把 16 进制转换成 10 进制，再转成 2 进制（以及逆过程）都太慢了。不如通过练习在脑子中形成直接映射，这样来的方便许多。而自己用纸和笔练起来还挺麻烦的，所以我就写了这样一个 Python 命令行小程序来搞定。实际上大部分都是 Cursor 调用 Claude 3.7 模型写的。祝大家备考顺利！🎉
