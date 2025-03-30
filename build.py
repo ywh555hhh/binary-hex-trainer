@@ -6,8 +6,7 @@ import platform
 def build_executable():
     """使用 PyInstaller 打包程序"""
     try:
-        # 在 GitHub Actions 环境中，我们使用英文消息来避免编码问题
-        print("🚀 Starting build process...")
+        print("[BUILD] Starting build process...")
         
         # 安装必要的依赖
         subprocess.check_call([sys.executable, "-m", "pip", "install", "pyinstaller"])
@@ -25,8 +24,8 @@ def build_executable():
             "binary_hex_trainer.py"
         ])
         
-        print("✨ Build completed!")
-        print("📦 Executable location: dist/binary_hex_trainer" + (".exe" if platform.system() == 'Windows' else ""))
+        print("[SUCCESS] Build completed!")
+        print("[INFO] Executable location: dist/binary_hex_trainer" + (".exe" if platform.system() == 'Windows' else ""))
         print("\nUsage instructions:")
         if platform.system() == 'Windows':
             print("1. Double click binary_hex_trainer.exe in the dist folder")
@@ -38,7 +37,7 @@ def build_executable():
             print("   ./dist/binary_hex_trainer")
             print("2. Or create a desktop shortcut")
     except Exception as e:
-        print(f"❌ Error during build: {str(e)}")
+        print(f"[ERROR] Error during build: {str(e)}")
         sys.exit(1)
 
 if __name__ == "__main__":
