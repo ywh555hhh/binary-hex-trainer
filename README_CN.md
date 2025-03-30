@@ -1,43 +1,49 @@
 # 进制转换练习程序
 
-一个帮助408考生快速掌握进制转换的命令行工具！
+一个帮助 408 考生高效掌握二进制和十六进制转换的命令行工具。
 
-## 下载地址
+## 前言
+
+在学习计算机组成原理时，我意识到在脑子里先把 16 进制转换成 10 进制，再转成 2 进制（以及逆过程）都太慢了。不如通过练习在脑子中形成直接映射，这样来的方便许多。而自己用纸和笔练起来还挺麻烦的，所以我就写了这样一个 Python 命令行小程序来搞定。实际上大部分都是 Cursor 调用 Claude 3.7 模型写的。祝大家备考顺利！🎉
+
+## 下载
 
 ### 最新版本
-- [Windows 版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_windows.zip)
-- [Linux 版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_linux.zip)
-- [Mac 版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_mac.zip)
+
+[下载 v1.0.0](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)
 
 ## 快速开始
 
 ### 方法一：直接运行（推荐）
 
-#### Windows 系统
-1. 下载 `binary_hex_trainer_windows.zip`
+#### Windows
+
+1. 从[最新版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)下载 `binary_hex_trainer_windows_xxx.zip`
 2. 解压文件
 3. 双击运行 `binary_hex_trainer.exe`
-4. 无需安装任何其他软件
+4. 无需额外安装
 
-#### Linux 系统
-1. 下载 `binary_hex_trainer_linux.zip`
+#### Linux
+
+1. 从[最新版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)下载 `binary_hex_trainer_linux_xxx.zip`
 2. 解压文件
 3. 在终端中运行：
    ```bash
    chmod +x binary_hex_trainer
    ./binary_hex_trainer
    ```
-4. 或者创建桌面快捷方式
+4. 或创建桌面快捷方式
 
-#### Mac 系统
-1. 下载 `binary_hex_trainer_mac.zip`
+#### Mac
+
+1. 从[最新版本](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)下载 `binary_hex_trainer_mac_xxx.zip`
 2. 解压文件
 3. 在终端中运行：
    ```bash
    chmod +x binary_hex_trainer
    ./binary_hex_trainer
    ```
-4. 或者创建桌面快捷方式
+4. 或创建桌面快捷方式
 
 ### 方法二：从源码运行
 1. 安装 Python 3.6 或更高版本

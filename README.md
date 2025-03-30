@@ -2,13 +2,15 @@
 
 A command-line tool designed to help 408 exam candidates master binary and hexadecimal conversions efficiently.
 
+## Preface
+
+When studying Computer Organization and Principles, I realized that converting between hexadecimal, decimal, and binary numbers in your head through multiple steps is inefficient. It's much better to develop direct mapping in your mind through practice. While practicing with pen and paper can be tedious, I created this Python command-line tool to make the process more efficient. Most of the code was written with the help of Claude 3.7 through Cursor. Good luck with your exam preparation! 🎉
+
 ## Download
 
 ### Latest Release
 
-- [Windows Version](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_windows.zip)
-- [Linux Version](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_linux.zip)
-- [Mac Version](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest/download/binary_hex_trainer_mac.zip)
+[Download v1.0.0](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)
 
 ## Quick Start
 
@@ -16,14 +18,14 @@ A command-line tool designed to help 408 exam candidates master binary and hexad
 
 #### Windows
 
-1. Download `binary_hex_trainer_windows.zip`
+1. Download `binary_hex_trainer_windows_xxx.zip` from [Latest Release](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)
 2. Extract the file
 3. Double-click `binary_hex_trainer.exe`
 4. No additional installation required
 
 #### Linux
 
-1. Download `binary_hex_trainer_linux.zip`
+1. Download `binary_hex_trainer_linux_xxx.zip` from [Latest Release](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)
 2. Extract the file
 3. Run in terminal:
    ```bash
@@ -34,7 +36,7 @@ A command-line tool designed to help 408 exam candidates master binary and hexad
 
 #### Mac
 
-1. Download `binary_hex_trainer_mac.zip`
+1. Download `binary_hex_trainer_mac_xxx.zip` from [Latest Release](https://github.com/ywh555hhh/binary-hex-trainer/releases/latest)
 2. Extract the file
 3. Run in terminal:
    ```bash
