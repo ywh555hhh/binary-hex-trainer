@@ -2,7 +2,7 @@
 
 A command-line tool designed to help 408 exam candidates master binary and hexadecimal conversions efficiently.
 
-![Binary-Hex Conversion Trainer](gihub.com/ywh555hhh/binary-hex-trainer/raw/main/figure/figure.png)
+![Binary-Hex Conversion Trainer](https://github.com/ywh555hhh/binary-hex-trainer/blob/main/figure/figure.png)
 
 ## Preface
 

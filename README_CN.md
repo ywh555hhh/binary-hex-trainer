@@ -2,7 +2,7 @@
 
 一个帮助 408 考生高效掌握二进制和十六进制转换的命令行工具。
 
-![Binary-Hex Conversion Trainer](gihub.com/ywh555hhh/binary-hex-trainer/raw/main/figure/figure.png)
+![Binary-Hex Conversion Trainer](https://github.com/ywh555hhh/binary-hex-trainer/blob/main/figure/figure.png)
 
 ## 前言
 
