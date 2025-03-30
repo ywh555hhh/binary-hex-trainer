@@ -3,6 +3,13 @@ import subprocess
 import sys
 import platform
 
+# 设置控制台编码为 UTF-8
+if platform.system() == 'Windows':
+    os.system('chcp 65001')  # 设置 Windows 控制台为 UTF-8 编码
+else:
+    os.environ['PYTHONIOENCODING'] = 'utf-8'  # 设置 Python IO 编码为 UTF-8
+    sys.stdout.reconfigure(encoding='utf-8')  # 设置标准输出编码为 UTF-8
+
 def build_executable():
     """使用 PyInstaller 打包程序"""
     print("🚀 开始打包程序...")
